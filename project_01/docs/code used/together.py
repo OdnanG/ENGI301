@@ -30,26 +30,6 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
---------------------------------------------------------------------------
-Software API:
-
-  * update_display(value)
-      - Update the value on the display.  Value must be between 0 and 9999. 
-  
---------------------------------------------------------------------------
-Background Information: 
- 
-  * Using seven-segment digit LED display for Adafruit's HT16K33 I2C backpack:
-    * http://adafruit.com/products/878
-    * https://learn.adafruit.com/assets/36420
-    * https://cdn-shop.adafruit.com/datasheets/ht16K33v110.pdf
-    
-    * Base code (adapted below):
-        * https://github.com/emcconville/HT16K33/blob/master/FourDigit.py
-        * https://github.com/emcconville/HT16K33/blob/master/_HT16K33.py
-        * https://github.com/adafruit/Adafruit_Python_LED_Backpack/blob/master/Adafruit_LED_Backpack/HT16K33.py
-        * https://github.com/adafruit/Adafruit_Python_LED_Backpack/blob/master/Adafruit_LED_Backpack/SevenSegment.py
-        * https://github.com/adafruit/Adafruit_Python_LED_Backpack/blob/master/examples/sevensegment_test.py
 """
 # Libraries
 import time
